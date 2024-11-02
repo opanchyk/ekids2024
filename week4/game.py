@@ -1,4 +1,7 @@
+import os
 import random
+from  hangman_stages import stages
+
 word_list = ["cat", "wolf", "monkey", "cow"]
 
 end_game =  False
@@ -16,6 +19,8 @@ print (display)
 
 while not end_game:
     input_letter = input ("Input letter. - ")
+    # os.system ('cls') # Windows
+    os.system('clear')  # Linux MacOS
     print (input_letter)
 
     for position in range (lengt_word):
@@ -27,14 +32,15 @@ while not end_game:
     if input_letter not in word:
         #lives -=1
         lives = lives -1
-        
+
         if lives == 0:
             end_game = True
             print("You lose")
-            
+
     print(f"{' '.join(display)}")
 
     if '_' not in display:
         end_game = True
         print ("You win")
+    print (stages [lives])
 
