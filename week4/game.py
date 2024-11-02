@@ -19,8 +19,8 @@ print (display)
 
 while not end_game:
     input_letter = input ("Input letter. - ")
-    # os.system ('cls') # Windows
-    os.system('clear')  # Linux MacOS
+    os.system ('cls') # Windows
+    # os.system('clear')  # Linux MacOS
     print (input_letter)
 
     for position in range (lengt_word):
