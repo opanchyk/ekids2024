@@ -3,10 +3,13 @@ Ekids program 2024 Python 1
 
 Це проект сторена в навчальних цілях для демонстарції роботи з GitHub
 
-``` for position in range (word_length):
-      letter = chosen_word[position]
-     # print (f"possition ={position}, letter = {letter}")
-      if letter == input_letter:
-          display[position] = letter
+```
+height = 1.76
+weight = 82
+
+bmi = weight / (height ** 2)
+
+print ("Your body mass index is " + str(bmi))
+
 
 ```
