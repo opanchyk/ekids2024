@@ -1,6 +1,8 @@
 ### ekids2024
 Ekids program 2024 Python 1
 
+https://github.com/opanchyk/ekids2024
+
 Це проект сторена в навчальних цілях для демонстарції роботи з GitHub
 
 ```
